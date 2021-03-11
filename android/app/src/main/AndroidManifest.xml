@@ -1,5 +1,6 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="io.github.asimbera.storydeck">
+    <uses-permission android:name="android.permission.INTERNET"/>
    <application
         android:label="Storydeck"
         android:icon="@mipmap/ic_launcher">
