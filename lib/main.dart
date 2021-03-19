@@ -13,6 +13,7 @@ class Storydeck extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.deepPurple,
         // accentColor: Colors.yellowAccent,
+        brightness: Brightness.dark,
         fontFamily: "Nunito",
       ),
       initialRoute: '/',

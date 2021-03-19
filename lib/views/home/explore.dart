@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:storydeck/views/home/common.dart';
 
 class Explore extends StatelessWidget {
-  const Explore({Key key}) : super(key: key);
+  const Explore({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -49,7 +49,7 @@ class Explore extends StatelessWidget {
 
 class _MostPlayedTabView extends StatelessWidget {
   const _MostPlayedTabView({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
@@ -70,7 +70,7 @@ class _MostPlayedTabView extends StatelessWidget {
 
 class _TrendingTabView extends StatelessWidget {
   const _TrendingTabView({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
@@ -91,7 +91,7 @@ class _TrendingTabView extends StatelessWidget {
 
 class _NewestTabView extends StatelessWidget {
   const _NewestTabView({
-    Key key,
+    Key? key,
   }) : super(key: key);
 
   @override
@@ -112,8 +112,8 @@ class _NewestTabView extends StatelessWidget {
 
 class _ListItem extends StatelessWidget {
   const _ListItem({
-    Key key,
-    @required this.index,
+    Key? key,
+    required this.index,
   }) : super(key: key);
 
   final int index;
@@ -129,7 +129,7 @@ class _ListItem extends StatelessWidget {
           fit: BoxFit.cover,
         ),
         gradient: LinearGradient(
-          colors: [Colors.transparent, Colors.grey[200]],
+          colors: [Colors.transparent, Colors.grey[200]!],
           begin: Alignment.topCenter,
           end: Alignment.bottomCenter,
         ),
@@ -168,7 +168,7 @@ class _ListItem extends StatelessWidget {
                     overflow: TextOverflow.ellipsis,
                     style: Theme.of(context)
                         .textTheme
-                        .caption
+                        .caption!
                         .copyWith(color: Colors.white),
                   ),
                   Text(
@@ -177,7 +177,7 @@ class _ListItem extends StatelessWidget {
                     overflow: TextOverflow.ellipsis,
                     style: Theme.of(context)
                         .textTheme
-                        .bodyText1
+                        .bodyText1!
                         .copyWith(color: Colors.white),
                   ),
                 ],

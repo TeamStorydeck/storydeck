@@ -1,9 +1,10 @@
 import 'package:flutter/material.dart';
 import 'package:storydeck/views/home/explore.dart';
 import 'package:storydeck/views/home/my_deck.dart';
+import 'package:storydeck/views/home/search.dart';
 
 class Home extends StatefulWidget {
-  const Home({Key key}) : super(key: key);
+  const Home({Key? key}) : super(key: key);
 
   @override
   _HomeState createState() => _HomeState();
@@ -11,12 +12,12 @@ class Home extends StatefulWidget {
 
 final pages = <Widget>[
   Explore(),
-  Container(),
+  Search(),
   MyDeck(),
 ];
 
 class _HomeState extends State<Home> {
-  int _currentIndex;
+  late int _currentIndex;
 
   void setActiveTab(int idx) {
     setState(() => _currentIndex = idx);
