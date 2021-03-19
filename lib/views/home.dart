@@ -3,18 +3,42 @@ import 'package:storydeck/views/home/explore.dart';
 import 'package:storydeck/views/home/my_deck.dart';
 import 'package:storydeck/views/home/search.dart';
 
+class Page {
+  Page({
+    @required this.label,
+    @required this.icon,
+    @required this.child,
+  });
+
+  final String? label;
+  final IconData? icon;
+  final Widget? child;
+}
+
+final pages = <Page>[
+  Page(
+    label: "Home",
+    icon: Icons.home_rounded,
+    child: Explore(),
+  ),
+  Page(
+    label: "Explore",
+    icon: Icons.explore_rounded,
+    child: Search(),
+  ),
+  Page(
+    label: "My Deck",
+    icon: Icons.bookmark_outline_rounded,
+    child: MyDeck(),
+  ),
+];
+
 class Home extends StatefulWidget {
   const Home({Key? key}) : super(key: key);
 
   @override
   _HomeState createState() => _HomeState();
 }
-
-final pages = <Widget>[
-  Explore(),
-  Search(),
-  MyDeck(),
-];
 
 class _HomeState extends State<Home> {
   late int _currentIndex;
@@ -32,28 +56,16 @@ class _HomeState extends State<Home> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: pages[_currentIndex],
+      body: pages[_currentIndex].child,
       bottomNavigationBar: BottomNavigationBar(
         currentIndex: _currentIndex,
         onTap: setActiveTab,
-        items: [
-          BottomNavigationBarItem(
-            icon: Icon(Icons.explore_rounded),
-            label: "Explore",
-          ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.search_rounded),
-            label: "Search",
-          ),
-          // BottomNavigationBarItem(
-          //   icon: Icon(Icons.multitrack_audio_rounded),
-          //   label: "Podcast",
-          // ),
-          BottomNavigationBarItem(
-            icon: Icon(Icons.person_rounded),
-            label: "My Deck",
-          ),
-        ],
+        items: pages
+            .map((page) => BottomNavigationBarItem(
+                  label: page.label,
+                  icon: Icon(page.icon),
+                ))
+            .toList(),
       ),
     );
   }
