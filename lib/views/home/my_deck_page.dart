@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:storydeck/views/home/common.dart';
 
-class MyDeck extends StatelessWidget {
-  const MyDeck({Key? key}) : super(key: key);
+class MyDeckPage extends StatelessWidget {
+  const MyDeckPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
