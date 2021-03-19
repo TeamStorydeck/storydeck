@@ -28,7 +28,7 @@ final pages = <Page>[
   ),
   Page(
     label: "My Deck",
-    icon: Icons.bookmark_outline_rounded,
+    icon: Icons.bookmark_rounded,
     child: MyDeckPage(),
   ),
 ];
