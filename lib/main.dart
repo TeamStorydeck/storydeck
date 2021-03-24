@@ -40,7 +40,7 @@ class Storydeck extends StatelessWidget {
       themeMode: mode,
       initialRoute: '/',
       routes: {
-        '/': (_) => Home(),
+        '/': (_) => HomePage(),
         SettingPage.path: (_) => SettingPage(),
       },
     );
