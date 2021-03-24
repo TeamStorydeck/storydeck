@@ -9,6 +9,7 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  animations:
   shared_preferences:
   get_it:
   flutter_bloc:

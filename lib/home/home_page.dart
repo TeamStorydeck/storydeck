@@ -1,7 +1,10 @@
+import 'package:animations/animations.dart';
 import 'package:flutter/material.dart';
 import 'package:storydeck/home/search_page.dart';
 import 'package:storydeck/home/explore_page.dart';
 import 'package:storydeck/home/my_deck_page.dart';
+import 'package:storydeck/home/widgets/mediacontrolls.dart';
+import 'package:storydeck/player/player_page.dart';
 
 class Page {
   Page({
@@ -57,15 +60,24 @@ class _HomePageState extends State<HomePage> {
   Widget build(BuildContext context) {
     return Scaffold(
       body: pages[_currentIndex].child,
-      bottomNavigationBar: BottomNavigationBar(
-        currentIndex: _currentIndex,
-        onTap: setActiveTab,
-        items: pages
-            .map((page) => BottomNavigationBarItem(
-                  label: page.label,
-                  icon: Icon(page.icon),
-                ))
-            .toList(),
+      bottomNavigationBar: Column(
+        mainAxisSize: MainAxisSize.min,
+        children: [
+          OpenContainer(
+            closedBuilder: (context, action) => MediaControlls(),
+            openBuilder: (context, action) => PlayerPage(),
+          ),
+          BottomNavigationBar(
+            currentIndex: _currentIndex,
+            onTap: setActiveTab,
+            items: pages
+                .map((page) => BottomNavigationBarItem(
+                      label: page.label,
+                      icon: Icon(page.icon),
+                    ))
+                .toList(),
+          ),
+        ],
       ),
     );
   }
