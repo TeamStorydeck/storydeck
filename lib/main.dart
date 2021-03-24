@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'package:storydeck/views/home.dart';
+import 'package:storydeck/home/home_page.dart';
 
 void main() {
   runApp(Storydeck());

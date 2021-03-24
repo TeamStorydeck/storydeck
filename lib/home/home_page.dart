@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
-import 'package:storydeck/views/home/home_page.dart';
-import 'package:storydeck/views/home/my_deck_page.dart';
-import 'package:storydeck/views/home/explore_page.dart';
+import 'package:storydeck/home/search_page.dart';
+import 'package:storydeck/home/explore_page.dart';
+import 'package:storydeck/home/my_deck_page.dart';
 
 class Page {
   Page({
@@ -19,12 +19,12 @@ final pages = <Page>[
   Page(
     label: "Home",
     icon: Icons.home_rounded,
-    child: HomePage(),
+    child: ExplorePage(),
   ),
   Page(
     label: "Explore",
     icon: Icons.explore_rounded,
-    child: ExplorePage(),
+    child: SearchPage(),
   ),
   Page(
     label: "My Deck",

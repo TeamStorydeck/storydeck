@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
-import 'package:storydeck/views/home/common.dart';
+import 'package:storydeck/home/widgets/popupmenu.dart';
 
-class ExplorePage extends StatelessWidget {
-  const ExplorePage({Key? key}) : super(key: key);
+class SearchPage extends StatelessWidget {
+  const SearchPage({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
