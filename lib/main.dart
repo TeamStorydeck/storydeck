@@ -1,4 +1,7 @@
+import 'dart:io';
+
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:storydeck/bloc/theme_bloc.dart';
 import 'package:storydeck/common/theme.dart';
@@ -10,6 +13,11 @@ Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
   await configureLocator();
   runApp(Storydeck());
+  if (Platform.isAndroid) {
+    const SystemUiOverlayStyle systemUiOverlayStyle =
+        SystemUiOverlayStyle(statusBarColor: Colors.transparent);
+    SystemChrome.setSystemUIOverlayStyle(systemUiOverlayStyle);
+  }
 }
 
 class Storydeck extends StatelessWidget {
