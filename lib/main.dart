@@ -7,6 +7,7 @@ import 'package:storydeck/bloc/theme_bloc.dart';
 import 'package:storydeck/common/theme.dart';
 import 'package:storydeck/home/home_page.dart';
 import 'package:storydeck/locator.dart';
+import 'package:storydeck/player/player_page.dart';
 import 'package:storydeck/setting/setting_page.dart';
 
 Future<void> main() async {
@@ -50,6 +51,7 @@ class Storydeck extends StatelessWidget {
       routes: {
         '/': (_) => HomePage(),
         SettingPage.path: (_) => SettingPage(),
+        PlayerPage.path: (_) => PlayerPage(),
       },
     );
   }
