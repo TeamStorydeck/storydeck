@@ -4,6 +4,7 @@ import 'package:storydeck/bloc/theme_bloc.dart';
 import 'package:storydeck/common/theme.dart';
 import 'package:storydeck/home/home_page.dart';
 import 'package:storydeck/locator.dart';
+import 'package:storydeck/setting/setting_page.dart';
 
 Future<void> main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -39,6 +40,7 @@ class Storydeck extends StatelessWidget {
       initialRoute: '/',
       routes: {
         '/': (_) => Home(),
+        SettingPage.path: (_) => SettingPage(),
       },
     );
   }
