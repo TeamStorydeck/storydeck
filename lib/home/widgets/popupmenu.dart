@@ -1,4 +1,7 @@
 import 'package:flutter/material.dart';
+import 'package:storydeck/setting/setting_page.dart';
+
+enum PopupTarget { SETTING, PRIVACY_POLICY, FEEDBACK }
 
 class TopBarActionButton extends StatelessWidget {
   const TopBarActionButton({Key? key}) : super(key: key);
@@ -6,22 +9,31 @@ class TopBarActionButton extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return PopupMenuButton(
-      itemBuilder: (context) => <PopupMenuEntry<int>>[
+      onSelected: (PopupTarget value) {
+        switch (value) {
+          case PopupTarget.SETTING:
+            Navigator.pushNamed(context, SettingPage.path);
+            break;
+          case PopupTarget.PRIVACY_POLICY:
+            // TODO: Handle this case.
+            break;
+          case PopupTarget.FEEDBACK:
+            // TODO: Handle this case.
+            break;
+        }
+      },
+      itemBuilder: (context) => <PopupMenuEntry<PopupTarget>>[
         PopupMenuItem(
-          child: Text("Settings"),
-          value: 1,
+          child: Text("Setting"),
+          value: PopupTarget.SETTING,
         ),
         PopupMenuItem(
           child: Text("Privacy Policy"),
-          value: 2,
+          value: PopupTarget.PRIVACY_POLICY,
         ),
         PopupMenuItem(
           child: Text("Feedback"),
-          value: 3,
-        ),
-        PopupMenuItem(
-          child: Text("Sign In"),
-          value: 4,
+          value: PopupTarget.FEEDBACK,
         ),
       ],
     );
