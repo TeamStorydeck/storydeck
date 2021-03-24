@@ -22,10 +22,6 @@ dev_dependencies:
 
 flutter:
   uses-material-design: true
-
-  # assets:
-  #   - assets/g1824.png
-
   fonts:
     - family: Nunito
       fonts:
