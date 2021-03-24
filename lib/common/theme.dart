@@ -5,6 +5,8 @@ final baseTheme = ThemeData(
   fontFamily: "Nunito",
 );
 
-final darkTheme = baseTheme.copyWith(
+final darkTheme = ThemeData(
+  primarySwatch: Colors.deepPurple,
   brightness: Brightness.dark,
+  fontFamily: "Nunito",
 );

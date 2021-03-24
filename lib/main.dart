@@ -20,7 +20,8 @@ class Storydeck extends StatelessWidget {
     return MultiBlocProvider(
       providers: [
         BlocProvider(
-          create: (context) => ThemeBloc(locator.get()),
+          create: (context) =>
+              ThemeBloc(locator.get())..add(ThemeEvent.syncTheme()),
         )
       ],
       child: BlocBuilder<ThemeBloc, ThemeState>(
