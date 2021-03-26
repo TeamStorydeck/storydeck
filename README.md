@@ -19,14 +19,12 @@
 
 ## Screenshots
 
-[<img src="/metadata/screenshots/Screenshot_1.jpg" width=160>](/metadata/screenshots/Screenshot_1.jpg)
-[<img src="/metadata/screenshots/Screenshot_2.jpg" width=160>](/metadata/screenshots/Screenshot_2.jpg)
-[<img src="/metadata/screenshots/Screenshot_3.jpg" width=160>](/metadata/screenshots/Screenshot_3.jpg)
-[<img src="/metadata/screenshots/Screenshot_4.jpg" width=160>](/metadata/screenshots/Screenshot_4.jpg)
-[<img src="/metadata/screenshots/Screenshot_5.jpg" width=160>](/metadata/screenshots/Screenshot_5.jpg)
-[<img src="/metadata/screenshots/Screenshot_6.jpg" width=160>](/metadata/screenshots/Screenshot_6.jpg)
-[<img src="/metadata/screenshots/Screenshot_7.jpg" width=160>](/metadata/screenshots/Screenshot_7.jpg)
-[<img src="/metadata/screenshots/Screenshot_8.jpg" width=160>](/metadata/screenshots/Screenshot_8.jpg)
+[<img src="/metadata/screenshots/Screenshot_1.jpg" width=200>](/metadata/screenshots/Screenshot_1.jpg)
+[<img src="/metadata/screenshots/Screenshot_2.jpg" width=200>](/metadata/screenshots/Screenshot_2.jpg)
+[<img src="/metadata/screenshots/Screenshot_3.jpg" width=200>](/metadata/screenshots/Screenshot_3.jpg)
+[<img src="/metadata/screenshots/Screenshot_4.jpg" width=200>](/metadata/screenshots/Screenshot_4.jpg)
+[<img src="/metadata/screenshots/Screenshot_5.jpg" width=200>](/metadata/screenshots/Screenshot_5.jpg)
+
 
 ## Description
 
