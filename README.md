@@ -58,6 +58,13 @@ There are 2 ways you can install and update Storydeck:
 ### Contribution
 
 Any type of good contributions are welcome :pray:
+Read [Contrubution Notes](/CONTRIBUTING.md) for more information.
+
+### Disclaimer
+
+```Our app is more like IMDb for audio stories. We don't own any content of it and the app comes without any warranty and promises. We do not store any media files on our servers. The contents are downloaded on your device from streaming providers like "YouTube". So what do you do with the downloaded content is only upto you and on your own liability.```
+
+
 
 
         
