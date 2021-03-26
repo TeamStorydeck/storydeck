@@ -1,4 +1,4 @@
-## Contribution
+## Contributing Guidelines
 Your ideas, design changes, code cleaning, or real heavy code changes or any other help all are always welcome. The more is contribution the better it gets.
 
  <h4>1. Fork this repository</h4>
@@ -38,4 +38,4 @@ Do your valuable changes into codebase and save it then push the changed code to
 
 `origin` repository.
 
-<h4>5. Make Pull Request to Team-Storydeck/ < storydeck-repo >
+<h4>5. Make Pull Request to Team-Storydeck/< storydeck-repo ></h4>
