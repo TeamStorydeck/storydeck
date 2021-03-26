@@ -62,7 +62,7 @@ Read [Contrubution Notes](/CONTRIBUTING.md) for more information.
 
 ### Disclaimer
 
-```Our app is more like IMDb for audio stories. We don't own any content of it and the app comes without any warranty and promises. We do not store any media files on our servers. The contents are downloaded on your device from streaming providers like "YouTube". So what do you do with the downloaded content is only upto you and on your own liability.```
+    Our app is more like IMDb for audio stories. We don't own any content of it and the app comes without any warranty and promises. We do not store any media files on our servers. The contents are downloaded on your device from streaming providers like "YouTube". So what do you do with the downloaded content is only upto you and on your own liability.
 
 ### Privacy Policy
     If you choose to use our Service, then you agree to the collection and use of information in
