@@ -34,7 +34,40 @@
 
 ##Description
 
-Storydeck 
+Storydeck crawls audio stories from YouTube. and initially it stores data into admin server using YouTube API.
+
+###Features
+
+* Search by Video / Channel Names
+* Background Playback
+* Add to Favourites  
+* Editor Picks
+* Channel Recommendations
+* Sync Favourites, Playlists (Login Required)
+* Downloads into External Storage (Unlimited)
+* Dark Mode Support with system
+* Ads Free audio Playback
+* Separated Trending and Newest Page
+
+####Upcoming Features
+
+- [ ] Listening Progress
+- [ ] New audio posting notifications from channels
+
+###Installation and Updates
+
+There are 2 ways you can install and update Storydeck:
+1. Download the APK from [GitHub Releases](https://github.com/Team-Storydeck/storydeck/release) and install it. Make sure you've turn on permission 'install from unknown source' in settings.
+
+2. From our Website [Coming Soon]
+
+###Contribution
+
+Any type of good contributions are welcome :pray:
+
+
+        
+
 
 
 
