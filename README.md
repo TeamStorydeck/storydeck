@@ -1,4 +1,4 @@
-<p align="center"><a href="https://github.com/Team-Storydeck/storydeck"><img src="/assets/storydeck_960px.png" width="200"></a></p>
+<p align="center"><a href="https://github.com/Team-Storydeck/storydeck"><img src="/assets/icons/icon.png" width="200"></a></p>
 
 <h2 align="center" style="font-family:Salsa" href="https://fonts.googleapis.com/css2?family=Salsa&display=swap" rel="stylesheet">Storydeck</h2>
 
