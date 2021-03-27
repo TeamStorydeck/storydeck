@@ -25,23 +25,22 @@
 [<img src="/metadata/screenshots/Screenshot_4.jpg" width=200>](/metadata/screenshots/Screenshot_4.jpg)
 [<img src="/metadata/screenshots/Screenshot_5.jpg" width=200>](/metadata/screenshots/Screenshot_5.jpg)
 
-
 ## Description
 
-Storydeck crawls audio stories from YouTube. and initially it stores data into admin server using YouTube API.
+Storydeck is a free and open-source audiostory player with some cool goodies. It comes with awesome stream and local download feature. The UI is filled with curated content from our [open-source server]() and the media files are directly fetched from third-party services to the device.
 
 ### Features
 
-* Search by Video / Channel Names
-* Background Playback
-* Add to Favourites  
-* Editor Picks
-* Channel Recommendations
-* Sync Favourites, Playlists (Login Required)
-* Downloads into External Storage (Unlimited)
-* Dark Mode Support with system
-* Ads Free audio Playback
-* Separated Trending and Newest Page
+- Search by Video / Channel Names
+- Background Playback
+- Add to Favourites
+- Editor Picks
+- Channel Recommendations
+- Sync Favourites, Playlists (Login Required)
+- Downloads into External Storage (Unlimited)
+- Dark Mode Support with system
+- Ads Free audio Playback
+- Separated Trending and Newest Page
 
 #### Upcoming Features
 
@@ -51,6 +50,7 @@ Storydeck crawls audio stories from YouTube. and initially it stores data into a
 ### Installation and Updates
 
 There are 2 ways you can install and update Storydeck:
+
 1. Download the APK from [GitHub Releases](https://github.com/Team-Storydeck/storydeck/release) and install it. Make sure you've turn on permission 'install from unknown source' in settings.
 
 2. From our Website [Coming Soon]
@@ -62,25 +62,15 @@ Read [Contrubution Notes](/CONTRIBUTING.md) for more information.
 
 ### Disclaimer
 
-```Our app is more like IMDb for audio stories. We don't own any content of it and the app comes without any warranty and promises. We do not store any media files on our servers. The contents are downloaded on your device from streaming providers like "YouTube". So what do you do with the downloaded content is only upto you and on your own liability.```
+`Our app is more like IMDb for audio stories. We don't own any content of it and the app comes without any warranty and promises. We do not store any media files on our servers. The contents are downloaded on your device from streaming providers like "YouTube". So what do you do with the downloaded content is only upto you and on your own discretion.`
 
 ### Privacy Policy
+
     If you choose to use our Service, then you agree to the collection and use of information in
     relation with this policy. The Personal Information that we collect are used for providing and
     improving the Service. We will not use or share your information with anyone except as described
     in this Privacy Policy.
+
 #### Read Our [Privacy Policy](/PRIVACY_POLICY.md) about our Service
 
 ### License
-
-
-
-
-
-
-        
-
-
-
-
-
