@@ -74,7 +74,7 @@ Read [Contrubution Notes](/CONTRIBUTING.md) for more information.
 #### Read Our [Privacy Policy](/PRIVACY_POLICY.md) about our Service
 
 ### License
-Storydeck is Licensed under [MIT License](/LICENSED.md)
+Storydeck is Licensed under [MIT License](/LICENSE.md)
 
 
     MIT License
