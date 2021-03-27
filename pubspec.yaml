@@ -20,6 +20,7 @@ dev_dependencies:
     sdk: flutter
   build_runner:
   freezed:
+  flutter_launcher_icons:
 
 flutter:
   uses-material-design: true
@@ -31,3 +32,8 @@ flutter:
           weight: 300
         - asset: fonts/Nunito-SemiBold.ttf
           weight: 600
+
+flutter_icons:
+  android: ic_launcher
+  ios: true
+  image_path: assets/icons/icon.png
