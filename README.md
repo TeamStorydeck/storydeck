@@ -11,7 +11,7 @@
 <a href="https://github.com/Team-Storydeck/storydeck/release"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/Team-Storydeck/storydeck"></a>
 </p>
 
-<b> :warning: WARNING: THIS IS A BETA VERSION of application, THEREFORE YOU MAY ENCOUNTER BUGS. You can OPEN the [ISSUE](https://github.com/Team-Storydeck/storydeck/issues) on [GITHUB REPOSITORY](https://github.com/Team-Storydeck/storydeck).</b>
+<b> :warning: WARNING: THIS IS A ALPHA VERSION of application, THEREFORE YOU MAY ENCOUNTER BUGS. You can OPEN the [ISSUE](https://github.com/Team-Storydeck/storydeck/issues) on [GITHUB REPOSITORY](https://github.com/Team-Storydeck/storydeck).</b>
 
 <b><br>DO NOT :no_entry_sign: PUT Storydeck OR ANY FORK OF IT INTO GOOGLE PLAYSTORE or Any other Store. It may VIOLATE THEIR TERMS AND CONDITIONS or you may encounter legal obligations.</b>
 
@@ -71,6 +71,16 @@ Read [Contrubution Notes](/CONTRIBUTING.md) for more information.
     improving the Service. We will not use or share your information with anyone except as described
     in this Privacy Policy.
 
-#### Read Our [Privacy Policy](/PRIVACY_POLICY.md) about our Service
+#### Read Our [Privacy Policy](/PRIVACY_POLICY.md) 
 
 ### License
+Storydeck is Licensed under [GPLv3 License](/LICENSE.md)
+
+
+    Storydeck - An Open-Source and Cross-platform App to listen, collect and download Audio Stories
+    Copyright (C) 2021  Asim Bera and Suman Mondal
+
+    This program is free software: you can redistribute it and/or modify
+    it under the terms of the GNU General Public License as published by
+    the Free Software Foundation, either version 3 of the License, or
+    (at your option) any later version.
