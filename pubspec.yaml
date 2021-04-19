@@ -9,10 +9,14 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  # UI
   animations:
-  shared_preferences:
+  bottom_navy_bar: ^6.0.0
+  # State, Persitance & DI
   get_it:
   flutter_bloc:
+  shared_preferences:
+  # Utility
   freezed_annotation:
 
 dev_dependencies:
