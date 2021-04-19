@@ -44,7 +44,7 @@ class Storydeck extends StatelessWidget {
   Widget _buildMaterialApp(ThemeMode mode) {
     return MaterialApp(
       title: title,
-      theme: baseTheme,
+      theme: lightTheme,
       darkTheme: darkTheme,
       themeMode: mode,
       initialRoute: '/',
