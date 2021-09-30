@@ -6,12 +6,13 @@
 
 <p>
 <a href="https://github.com/Team-Storydeck/storydeck/issues" alt="GitHub issues"><img src="https://img.shields.io/github/issues/Team-Storydeck/storydeck"></a>
-<a href="/LICENSE" alt="License: GPLv3"><img alt="Packagist License" src="https://img.shields.io/packagist/l/Team-Storydeck/storydeck"></a>
-<a href="https://github.com/Team-Storydeck/storydeck/actions" alt="Build Status"><img src="https://img.shields.io/appveyor/build/Team-Storydeck/storydeck/main"></a>
-<a href="https://github.com/Team-Storydeck/storydeck/release"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/Team-Storydeck/storydeck"></a>
+
+<!-- <a href="/LICENSE.md" alt="License: GPLv3"><img alt="Packagist License" src="https://img.shields.io/packagist/l/Team-Storydeck/storydeck"></a> -->
+<!-- <a href="https://github.com/Team-Storydeck/storydeck/actions" alt="Build Status"><img src="https://img.shields.io/appveyor/build/Team-Storydeck/storydeck/main"></a> -->
+<!-- <a href="https://github.com/Team-Storydeck/storydeck/release"><img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/Team-Storydeck/storydeck"></a> -->
 </p>
 
-<b> :warning: WARNING: THIS IS A ALPHA VERSION of application, THEREFORE YOU MAY ENCOUNTER BUGS. You can OPEN the [ISSUE](https://github.com/Team-Storydeck/storydeck/issues) on [GITHUB REPOSITORY](https://github.com/Team-Storydeck/storydeck).</b>
+<b> :warning: WARNING: NO RELEASES has been made yet. We're working on this. You can OPEN the [ISSUE](https://github.com/Team-Storydeck/storydeck/issues) on [GITHUB REPOSITORY](https://github.com/Team-Storydeck/storydeck).</b>
 
 <b><br>DO NOT :no_entry_sign: PUT Storydeck OR ANY FORK OF IT INTO GOOGLE PLAYSTORE or Any other Store. It may VIOLATE THEIR TERMS AND CONDITIONS or you may encounter legal obligations.</b>
 
