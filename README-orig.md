@@ -61,10 +61,6 @@ There are 2 ways you can install and update Storydeck:
 Any type of useful contributions are welcome :pray:
 Read Our [Contrubution Notes](/CONTRIBUTING.md) for more information.
 
-* #### Hacktoberfest 2021 :star2:
-    This Project is eligible to `Hacktoberfest2021` Open-source contribution. So what are you waiting for? Jump in to make useful PRs.
-
-
 ### Disclaimer
 
 `Our app is more like IMDb for audio stories. We don't own any content of it and the app comes without any warranty and promises. We do not store any media files on our servers. The contents are downloaded on your device from streaming providers like "YouTube". So what do you do with the downloaded content is only upto you and on your own discretion.`
